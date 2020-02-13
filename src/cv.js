@@ -10,9 +10,9 @@ function Cv() {
   return (
     <div className="App">
       <div className="primer-div">
-        <Link to="/"> Home </Link>
-        <Link to="/cv" > cv </Link>
-        <Link to="/contacto"> contacto </Link>
+      <Link className="link" to="/"> Home </Link>
+        <Link className="link" to="/cv" > Cv </Link>
+        <Link className="link" to="/contacto"> Contacto </Link>
       </div>
 
       <div className="cuerpito">
@@ -27,7 +27,15 @@ function Cv() {
             </div>
 
             <div className="restodecv">
-                <p className>No se que poner aqui</p>
+                <p className="nombre">Moises Alberto Rodriguez Aceves</p>
+                <p className>Tras varios semestres en la carrera de produccion en multimedia he desarrollado diversoso conocimientos incluyendo animacion, ilustracion, programacion, entre otros. Mi fuerte se centra en la programacion y en el desarrollos de aplicaciones. </p>
+                <p className="experiencia">Habilidades</p>
+                <li>Manejo fluido del idioma ingles y español, asi como a nivel basico el italiano </li>
+                <li>Habilidades para el desarrollo de video publicitario y marketing</li>
+                <p className="experiencia">Experiencia laboral</p>
+                <li> Desarrollo de inventario ganadero para empresa agricola en el año 2019</li>
+                <li>Trabajo como contribullente en el desarrollo de una base de datos para una empresa local de quesos </li>
+                
 
             </div>
         </div>
